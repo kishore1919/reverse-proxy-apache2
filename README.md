@@ -24,16 +24,22 @@ This project demonstrates how to configure an Apache2 server as a reverse proxy.
    ```
 3. Follow the configuration steps in the provided documentation to set up the reverse proxy.
 
+## Docker Image
+
+A Docker image is available for easy deployment:
+
+```bash
+docker pull ghcr.io/kishore1919/reverse-proxy-apache2:latest
+```
+
 ## Screenshots
 Below are some screenshots showcasing the project setup and functionality:
 
-### Example Configuration
-![Reverse Proxy in Action](screenshots/example-configuration-screenshot.png)
+### Reverse Proxy in Action with Http
+![Reverse Proxy in Action](https://github.com/kishore1919/reverse-proxy-apache2/blob/main/ex1.png?raw=true)
 
-### Reverse Proxy in Action
-![Reverse Proxy in Action](screenshots/reverse-proxy-action-screenshot.png)
-
-> **Note:** Replace `screenshots/example-configuration-screenshot.png` and `screenshots/reverse-proxy-action-screenshot.png` with the actual paths and filenames of your screenshots.
+### Reverse Proxy in Action with Https
+![Reverse Proxy in Action](https://github.com/kishore1919/reverse-proxy-apache2/blob/main/ex2.png?raw=true)
 
 ## License
 This project is licensed under the Apache License 2.0. See the LICENSE file for details.
